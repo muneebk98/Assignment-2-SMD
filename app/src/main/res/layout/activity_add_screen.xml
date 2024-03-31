@@ -15,14 +15,14 @@
         android:layout_gravity="center_horizontal"
         android:paddingTop="20dp"
         android:paddingBottom="20dp"
-        android:text="Please fill in the details"
+        android:text="@string/please_fill_in_the_details"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/r_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Restaurant Name"
+        android:hint="@string/restaurant_name"
         android:paddingLeft="30dp"
         android:paddingTop="10dp"
         android:paddingRight="30dp"
@@ -30,7 +30,7 @@
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Location"
+        android:hint="@string/location"
         android:id="@+id/loc"
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
@@ -40,7 +40,7 @@
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Phone"
+        android:hint="@string/phone"
         android:id="@+id/phone"
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
@@ -52,7 +52,7 @@
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Description"
+        android:hint="@string/description"
         android:id="@+id/desc"
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
@@ -61,7 +61,7 @@
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Rating"
+        android:hint="@string/rating"
         android:id="@+id/rating"
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
@@ -74,7 +74,7 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Add"
+            android:text="@string/add"
             android:gravity="center_horizontal"
             android:layout_gravity="center_horizontal"
             android:id="@+id/btnadd"
